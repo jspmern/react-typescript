@@ -1,0 +1,19 @@
+.info {
+  border: 1px solid black;
+  padding: 20px;
+  color: skyblue;
+  margin: 20px 0px;
+}
+.warning {
+  border: 1px soli black;
+  padding: 20px;
+  margin: 20px 0px;
+}
+.warning-high {
+  background-color: red;
+  color: white;
+}
+.warning-low {
+  background-color: orange;
+  color: black;
+}

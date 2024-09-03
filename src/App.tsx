@@ -6,6 +6,10 @@ import ChildrenProps from './component/2.ChildrenProps';
 import State from './component/3.1.State';
 import Main from './component/assignment.1/Main';
 import Todo from './component/assignment.1/Todo';
+import MainContainer from './component/assignment.2/MainContainer';
+// import Todo from './component/contextAndReducer/Todo';
+import Container from './component/contextAndReducer/Container';
+import TodoContextProvider from './component/contextAndReducer/TodoContext';
 
 function App() {
   return (
@@ -14,11 +18,14 @@ function App() {
       {/* <ChildrenProps compname="parent-component" des="hii i am for teching children props" >
         <PropsComp name='utsav' sal={2000} address='delhi' age={24}/>
         </ChildrenProps> */}
-
       {/* <State></State> */}
-
       {/* //assignment               */}
-      <Main />
+      {/* <Main /> */}
+      {/* <MainContainer /> */}
+      <TodoContextProvider>
+        <Container />
+      </TodoContextProvider>
+
 
     </div>
   );
